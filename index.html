@@ -29,7 +29,10 @@
         </h1>
 
         <div class="grid grid-cols-4 gap-6">
-          <div class="bg-white border border-gray-200 rounded-lg shadow-md">
+          <div
+            class="group bg-white border border-gray-200 rounded-lg shadow-md
+                   hover:shadow-xl hover:scale-105 transition-all duration-300"
+          >
             <img
               src="https://placehold.co/600x400"
               alt="Product Image" 
@@ -44,8 +47,15 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros.
               </p>
               <div class="flex items-center justify-between">
-                <span class="text-lg font-bold text-green-600">$49.99</span>
-                <button class="bg-gradient-to-r from-blue-400 to-green-400 text-white py-1 px-3 rounded">
+                <span
+                  class="text-lg font-bold text-green-600
+                         group-hover:text-xl group-hover:text-green-700 transition-all"
+                >
+                  $49.99</span>
+                <button
+                  class="bg-gradient-to-r from-blue-400 to-green-400 text-white py-1 px-3 rounded
+                         hover:from-blue-500 hover:to-green-500 transition-all duration-300 active:scale-95"
+                >
                   Add to Cart
                 </button>
               </div>
