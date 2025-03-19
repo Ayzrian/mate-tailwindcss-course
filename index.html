@@ -40,7 +40,9 @@
             >
 
             <div class="p-4 space-y-2">
-              <h2 class="text-xl font-semibold text-gray-800">
+              <h2 class="flex items-center text-xl font-semibold text-gray-800 before:content-['New'] before:bg-green-500
+                        before:text-white before:text-xs before:font-bold before:rounded before:p-1
+                        before:mr-2 group-hover:before:bg-green-600">
                 Product Name
               </h2>
               <p class="text-gray-600 text-sm leading-tight tracking-tight">
@@ -70,13 +72,20 @@
             >
 
             <div class="p-4 space-y-2">
-              <h2 class="text-xl font-semibold text-gray-800">
+              <h2 class="flex items-center text-xl font-semibold text-gray-800 before:content-['Sale'] before:bg-red-500
+                        before:text-white before:text-xs before:font-bold before:rounded before:p-1
+                        before:mr-2 group-hover:before:bg-red-600">
                 Product Name
               </h2>
               <p class="text-gray-600 text-sm leading-tight tracking-tight">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros.
               </p>
               <div class="flex items-center justify-between">
+                <span class="relative text-lg font-bold text-green-600 before:absolute
+                           before:content-[''] before:w-full before:h-1 before:bg-red-500 
+                           before:top-1/2 before:left-1/2 before:-translate-y-1/2 before:-translate-x-1/2">
+                  $49.99
+                </span>
                 <span class="text-lg font-bold text-green-600">$29.99</span>
                 <button class="bg-gradient-to-r from-blue-400 to-green-400 text-white py-1 px-3 rounded">
                   Add to Cart
