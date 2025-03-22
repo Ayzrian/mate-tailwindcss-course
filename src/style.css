@@ -8,3 +8,9 @@
     100% { opacity: 1; }
   }
 }
+
+@utility fcb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
